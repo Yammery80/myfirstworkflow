@@ -26,6 +26,6 @@ jobs:
       - name: Definir variable
         run: echo "USERNAME=${{  github.actor }}" >> $GITHUB_ENV                                                                                    
       - name: Ejecuta Script
-        run: node app.py
+        run: node app.js
 
         
